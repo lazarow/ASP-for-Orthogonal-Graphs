@@ -1,0 +1,64 @@
+                Clingo 5.6.2
+test01  SAT     42.556          10  5x5
+test02  UNSAT   111.628
+test03  SAT     6.163
+test04  SAT     80.234
+test05  SAT     12.489
+test06  SAT     22.714
+test07  UNSAT   57.244
+test08  SAT     56.423
+test09  UNSAT   168.226
+test10  UNSAT   146.167
+---
+test11  UNSAT   132.096         11  4x6
+test12  SAT     29.585
+test13  SAT     6.731
+test14  SAT     46.300
+test15  UNSAT   92.134
+test16  SAT     49.356
+test17  UNSAT   80.332
+test18  UNSAT   76.348
+test19  SAT     28.046
+test20  SAT     14.926
+---
+test21	SAT		414.357		10  8x3
+test22	SAT		75.701
+test23	UNSAT	348.057
+test24	SAT		35.129
+test25	SAT		233.721
+test26	SAT 	137.923
+test27	SAT 	79.138
+test28	SAT		237.768
+test29	SAT		13.288
+test30	SAT		487.819
+
+
+Solutions:
+----------
+test21
+p_for_v(4,1,6) segment(7,0,7,2) segment(0,1,0,3) segment(4,1,4,0) segment(4,1,4,2) segment(6,1,6,0) segment(6,1,6,2) segment(5,2,5,1) p_for_v(1,3,0) segment(1,3,1,1) segment(6,3,6,2) p_for_v(5,3,7) p_for_v(0,1,9) p_for_v(5,1,5) p_for_v(5,2,1) p_for_v(6,2,8) p_for_v(6,1,2) p_for_v(6,0,10) p_for_v(7,0,3) p_for_v(6,3,4) segment(6,0,4,0) segment(7,0,6,0) segment(4,1,1,1) segment(5,1,4,1) segment(6,1,5,1) segment(5,2,4,2) segment(5,2,6,2) segment(6,2,7,2) segment(1,3,0,3) segment(1,3,5,3) segment(6,3,5,3) p_for_v(3,0,11)
+----------
+test22
+p_for_v(0,0,0) segment(0,0,0,2) p_for_v(3,2,1) segment(4,0,4,1) segment(3,2,3,0) segment(3,2,3,3) segment(4,2,4,1) segment(4,2,4,3) segment(5,2,5,1) segment(5,2,5,3) segment(6,2,6,0) segment(6,2,6,3) segment(7,3,7,2) p_for_v(4,2,4) p_for_v(4,0,5) p_for_v(4,3,8) p_for_v(6,2,3) p_for_v(5,2,2) p_for_v(5,1,10) p_for_v(7,3,6) p_for_v(7,2,11) p_for_v(4,1,7) segment(4,0,3,0) segment(4,0,6,0) segment(4,1,5,1) segment(3,2,0,2) segment(3,2,4,2) segment(5,2,4,2) segment(5,2,6,2) segment(6,2,7,2) segment(4,3,3,3) segment(4,3,5,3) segment(7,3,6,3) p_for_v(2,1,9)
+----------
+test24
+p_for_v(0,2,3) segment(1,0,1,1) segment(0,1,0,0) segment(0,2,0,1) segment(0,2,0,3) p_for_v(1,2,0) segment(2,2,2,1) segment(2,2,2,3) segment(4,2,4,0) segment(4,2,4,3) segment(7,2,7,1) segment(7,2,7,3) p_for_v(2,2,5) p_for_v(1,0,1) p_for_v(1,1,7) p_for_v(0,1,8) p_for_v(4,2,10) p_for_v(7,2,4) p_for_v(5,3,2) p_for_v(1,3,9) p_for_v(7,1,11) segment(1,0,0,0) segment(1,0,4,0) segment(1,1,2,1) segment(1,2,0,2) segment(1,2,2,2) segment(2,2,4,2) segment(7,2,4,2) segment(1,3,0,3) segment(1,3,2,3) segment(5,3,4,3) segment(5,3,7,3) p_for_v(5,0,6)
+----------
+test26
+p_for_v(1,3,2) segment(4,0,4,1) segment(2,1,2,0) segment(4,1,4,2) p_for_v(2,2,0) segment(2,2,2,1) segment(2,2,2,3) segment(5,2,5,1) segment(6,2,6,0) segment(6,2,6,3) segment(1,3,1,2) segment(5,3,5,2) segment(7,3,7,2) p_for_v(4,1,6) p_for_v(2,1,7) p_for_v(5,3,8) p_for_v(6,2,5) p_for_v(7,3,3) p_for_v(4,0,4) p_for_v(5,2,9) p_for_v(0,1,10) segment(4,0,2,0) segment(4,0,6,0) segment(2,1,0,1) segment(4,1,2,1) segment(4,1,5,1) segment(2,2,1,2) segment(2,2,4,2) segment(6,2,5,2) segment(6,2,7,2) segment(5,3,2,3) segment(5,3,6,3) p_for_v(7,1,11) p_for_v(0,0,1)
+----------
+test25
+p_for_v(0,1,1) segment(2,0,2,1) segment(0,1,0,0) segment(4,1,4,0) p_for_v(0,2,0) segment(0,2,0,1) segment(0,2,0,3) segment(4,2,4,1) segment(4,2,4,3) segment(7,2,7,1) segment(7,2,7,3) segment(6,3,6,2) p_for_v(4,2,3) p_for_v(0,3,5) p_for_v(2,0,6) p_for_v(2,1,7) p_for_v(6,3,8) p_for_v(7,2,2) p_for_v(6,2,9) p_for_v(4,1,10) p_for_v(3,1,4) p_for_v(3,3,11) segment(2,0,0,0) segment(2,0,4,0) segment(0,1,2,1) segment(3,1,2,1) segment(3,1,4,1) segment(4,1,7,1) segment(0,2,4,2) segment(4,2,6,2) segment(7,2,6,2) segment(0,3,3,3) segment(6,3,4,3) segment(6,3,7,3)
+----------
+test27
+p_for_v(2,1,2) segment(0,1,0,0) segment(0,1,0,2) segment(2,1,2,0) segment(2,1,2,2) segment(3,1,3,0) p_for_v(3,1,0) segment(3,1,3,2) segment(5,1,5,2) segment(2,2,2,3) segment(6,3,6,0) p_for_v(3,0,4) p_for_v(4,1,6) p_for_v(3,2,7) p_for_v(2,2,3) p_for_v(0,1,5) p_for_v(6,3,10) p_for_v(1,0,8) p_for_v(5,2,11) p_for_v(5,1,9) segment(1,0,0,0) segment(3,0,2,0) segment(3,0,6,0) segment(2,1,0,1) segment(3,1,2,1) segment(3,1,4,1) segment(2,2,0,2) segment(2,2,3,2) segment(3,2,5,2) segment(6,3,2,3) p_for_v(7,2,1)
+----------
+test29
+p_for_v(0,3,5) segment(5,0,5,1) segment(1,1,1,0) p_for_v(1,1,0) segment(1,1,1,2) segment(5,1,5,2) segment(6,1,6,0) segment(6,1,6,2) segment(5,2,5,3) segment(0,3,0,1) segment(4,3,4,2) segment(7,3,7,1) p_for_v(5,1,7) p_for_v(4,0,8) p_for_v(3,2,10) p_for_v(5,0,1) p_for_v(6,1,4) p_for_v(7,3,2) p_for_v(5,2,9) p_for_v(4,3,3) p_for_v(2,3,11) p_for_v(6,0,6) segment(4,0,1,0) segment(1,1,0,1) segment(1,1,5,1) segment(6,1,5,1) segment(6,1,7,1) segment(3,2,1,2) segment(5,2,4,2) segment(5,2,6,2) segment(0,3,2,3) segment(4,3,2,3) segment(7,3,5,3)
+----------
+test30
+segment(0,0,0,3) p_for_v(3,2,3) segment(1,1,1,2) segment(3,1,3,0) segment(5,1,5,0) p_for_v(5,1,0) segment(5,1,5,2) segment(6,1,6,2) segment(3,2,3,1) segment(7,2,7,0) segment(7,2,7,3) segment(3,3,3,2) p_for_v(3,1,4) p_for_v(6,1,6) p_for_v(5,0,7) p_for_v(3,3,1) p_for_v(7,2,10) p_for_v(0,0,11) p_for_v(1,1,2) p_for_v(3,0,9) p_for_v(1,0,5) p_for_v(6,2,8) segment(1,0,0,0) segment(1,0,3,0) segment(5,0,3,0) segment(5,0,7,0) segment(1,1,3,1) segment(5,1,3,1) segment(5,1,6,1) segment(3,2,1,2) segment(3,2,5,2) segment(6,2,7,2) segment(3,3,0,3) segment(3,3,7,3)
+----------
+test28
+p_for_v(1,0,0) segment(1,0,1,2) p_for_v(4,0,1) segment(4,0,4,1) segment(4,1,4,2) segment(2,2,2,1) segment(2,2,2,3) segment(3,2,3,1) segment(3,2,3,3) segment(6,2,6,0) segment(6,2,6,3) p_for_v(2,2,4) p_for_v(6,2,3) p_for_v(4,1,10) p_for_v(5,1,2) p_for_v(6,3,5) p_for_v(5,2,6) p_for_v(7,2,9) p_for_v(3,2,7) p_for_v(3,1,8) p_for_v(0,3,11) segment(1,0,4,0) segment(4,0,6,0) segment(3,1,2,1) segment(3,1,4,1) segment(5,1,4,1) segment(2,2,1,2) segment(2,2,3,2) segment(3,2,4,2) segment(6,2,5,2) segment(6,2,7,2) segment(0,3,2,3) segment(6,3,3,3)
+----------
